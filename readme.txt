@@ -12,4 +12,6 @@ Daniel Antohe
   **
   add basic functionality for decision tree algh
   The feature
+  -- add the feature vector generation code
+
   

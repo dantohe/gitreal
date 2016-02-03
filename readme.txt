@@ -18,3 +18,6 @@ Daniel Antohe
 
   -- resolve b0 bug in linnear regression alg.---
   
+master:1
+master:2
+master:3

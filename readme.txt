@@ -13,5 +13,7 @@ Daniel Antohe
   add basic functionality for decision tree algh
   The feature
   -- add the feature vector generation code
+  -- resolve b0 bug in linnear regression alg.
+  
 
   

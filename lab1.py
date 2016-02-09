@@ -1,6 +1,7 @@
 
 # coding: utf-8
-
+#
+#$$
 # ![ML Logo](http://spark-mooc.github.io/web-assets/images/CS190.1x_Banner_300.png)
 # # **Math and Python review and CTR data download**
 # #### This notebook reviews vector and matrix math, the [NumPy](http://www.numpy.org/) Python package, and Python lambda expressions.  It also covers downloading the data required for Lab 4, where you will analyze website click-through rates.  Part 1 covers vector and matrix math, and you'll do a few exercises by hand.  In Part 2, you'll learn about NumPy and use `ndarray` objects to solve the math exercises.   Part 3 provides additional information about NumPy and how it relates to array usage in Spark's [MLlib](https://spark.apache.org/mllib/).  Part 4 provides an overview of lambda expressions, and you'll wrap up by downloading the dataset for Lab 4.
@@ -31,7 +32,7 @@ labVersion = 'cs190_week1_v_1_2'
 # TODO: Replace <FILL IN> with appropriate code
 # Manually calculate your answer and represent the vector as a list of integers values.
 # For example, [2, 4, 8].
-x = [3, -6, 0]
+x = [5, -6, 0]
 y = [4, 8, 16]
 
 

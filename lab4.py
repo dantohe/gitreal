@@ -18,7 +18,7 @@
 
 # In[1]:
 
-labVersion = 'cs190_week4_v_1_4'
+labVersion = 'cs190_week4_v_1_5'
 
 
 # ### ** Part 1: Featurize categorical data using one-hot-encoding **
@@ -34,7 +34,7 @@ labVersion = 'cs190_week4_v_1_4'
 # Note: the first data point does not include any value for the optional third feature
 sampleOne = [(0, 'mouse'), (1, 'black')]
 sampleTwo = [(0, 'cat'), (2, 'tabby'), (2, 'mouse')]
-sampleThree =  [(0, 'bear'), (1, 'black'), (2, 'salmon')]
+sampleThree =  [(10, 'bear'), (2, 'black'), (3, 'salmon')]
 sampleDataRDD = sc.parallelize([sampleOne, sampleTwo, sampleThree])
 
 

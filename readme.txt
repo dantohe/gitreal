@@ -35,5 +35,6 @@ unit 3 - refactor linear regression code
 
 154 55 34
 
+add CRN
 
 

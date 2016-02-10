@@ -653,11 +653,4 @@ if os.path.isfile(fileName):
                .textFile(fileName, 2)
                .map(lambda x: x.replace('\t', ',')))  # work with either ',' or '\t' separated data
 
-print rawData.take(1)
-rawDataCount = rawData.count()
-print rawDataCount
-# This line tests that the correct number of observations have been loaded
-assert rawDataCount == 100000, 'incorrect count for rawData'
-if rawDataCount == 100000:
-    print 'Criteo data loaded successfully!'
 

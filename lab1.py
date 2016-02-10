@@ -29,12 +29,6 @@ labVersion = 'cs190_week1_v_1_2'
 
 # In[2]:
 
-# TODO: Replace <FILL IN> with appropriate code
-# Manually calculate your answer and represent the vector as a list of integers values.
-# For example, [2, 4, 8].
-x = [5, -6, 0]
-y = [4, 8, 16]
-
 
 # In[3]:
 

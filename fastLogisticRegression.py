@@ -641,12 +641,6 @@ else:
     extractTar()
 
 
-# In[64]:
-
-import os.path
-baseDir = os.path.join('data')
-inputPath = os.path.join('cs190', 'dac_sample.txt')
-fileName = os.path.join(baseDir, inputPath)
 
 if os.path.isfile(fileName):
     rawData = (sc

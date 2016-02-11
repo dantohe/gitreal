@@ -35,11 +35,6 @@ labVersion = 'cs190_week1_v_1_2'
 # TEST Scalar multiplication: vectors (1a)
 # Import test library
 from test_helper import Test
-Test.assertEqualsHashed(x, 'e460f5b87531a2b60e0f55c31b2e49914f779981',
-                        'incorrect value for vector x')
-Test.assertEqualsHashed(y, 'e2d37ff11427dbac7f833a5a7039c0de5a740b1e',
-                        'incorrect value for vector y')
-
 
 # #### ** (1b) Element-wise multiplication: vectors **
 # #### In this exercise, you will calculate the element-wise multiplication of two vectors by hand and enter the result in the code cell below.  You'll later see that element-wise multiplication is the default method when two NumPy arrays are multiplied together.  Note we won't be performing element-wise multiplication in future labs, but we are introducing it here to distinguish it from other vector operators, and to because it is a common operations in NumPy, as we will discuss in Part (2b).
@@ -654,4 +649,9 @@ print rawDataCount
 assert rawDataCount == 100000, 'incorrect count for rawData'
 if rawDataCount == 100000:
     print 'Criteo data loaded successfully!'
+
+Test.assertEqualsHashed(x, 'e460f5b87531a2b60e0f55c31b2e49914f779981',
+                        'incorrect value for vector x')
+Test.assertEqualsHashed(y, 'e2d37ff11427dbac7f833a5a7039c0de5a740b1e',
+                        'incorrect value for vector y')
 

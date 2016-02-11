@@ -1083,18 +1083,6 @@ print ('\ndirectionScores (first three): \n{0}'
 print '\neigenvaluesDirection: (first five) \n{0}'.format(eigenvaluesDirection[:5])
 
 
-# In[ ]:
-
-# TEST Compact representation of direction data (4g)
-Test.assertEquals(componentsDirection.shape, (12, 3), 'incorrect shape for componentsDirection')
-Test.assertTrue(np.allclose(np.abs(np.sum(componentsDirection[:5, :])), 1.080232069),
-                'incorrect value for componentsDirection')
-Test.assertTrue(np.allclose(np.abs(np.sum(directionScores.take(3))), 0.10993162084),
-                'incorrect value for directionScores')
-Test.assertTrue(np.allclose(np.sum(eigenvaluesDirection[:5]), 2.0089720377),
-                'incorrect value for eigenvaluesDirection')
-
-
 #  
 # #### **Visualization 10: Top two components by direction**
 # #### Again, let's view the scores from the first two PCs as a composite image.  When we preprocess by averaging across time (group by direction), and then perform PCA, we are only looking at variability related to stimulus direction. As a result, if neurons appear similar -- have similar colors -- in the image, it means that their responses vary similarly across directions, regardless of how they evolve over time. In the image below, we see a different pattern of similarity across regions of the brain.  Moreover, regions on either side of the midline are colored differently, which suggests that we are looking at a property, direction selectivity, that has a different representation across the two sides of the brain.

@@ -17,33 +17,5 @@ Daniel Antohe
   
 
   -- resolve b0 bug in linnear regression alg.---
-  uni:1
-  uni:2
+  -- another refactoring and alg optimization --
   
-  
-master:1
-master:2
-master:3
-
-master:4
-master:5
-
-uni:4
-uni:5
-
-unit 3 - refactor linear regression code
-
-154 55 34
-
-add CRN
-
-master1
-master2
-unic1
-unic2
-has SVN functionality
-###
-$$$$
-
-
-----

@@ -592,6 +592,23 @@ import tarfile
 import urllib
 import urlparse
 
+
+if os.path.isfile(fileName):
+    print 'File is already available. Nothing to do.'
+elif extractTar(check = True):
+    print 'tar.gz file was already available.'
+elif not url.endswith('dac_sample.tar.gz'):
+    print 'Check your download url.  Are you downloading the Sample dataset?'
+else:
+    # Download the file and store it in the same directory as this notebook
+    try:
+        urllib.urlretrieve(url, os.path.basename(urlparse.urlsplit(url).path))
+    except IOError:
+        print 'Unable to download and store: {0}'.format(url)
+
+    extractTar()
+
+
 # Paste url, url should end with: dac_sample.tar.gz
 url = 'http://labs.criteo.com/wp-content/uploads/2015/04/dac_sample.tar.gz'
 
@@ -623,22 +640,6 @@ def extractTar(check = False):
         print ('Alternatively, you can upload the dac_sample.tar.gz file to your Jupyter root ' +
               'directory')
         return False
-
-
-if os.path.isfile(fileName):
-    print 'File is already available. Nothing to do.'
-elif extractTar(check = True):
-    print 'tar.gz file was already available.'
-elif not url.endswith('dac_sample.tar.gz'):
-    print 'Check your download url.  Are you downloading the Sample dataset?'
-else:
-    # Download the file and store it in the same directory as this notebook
-    try:
-        urllib.urlretrieve(url, os.path.basename(urlparse.urlsplit(url).path))
-    except IOError:
-        print 'Unable to download and store: {0}'.format(url)
-
-    extractTar()
 
 
 

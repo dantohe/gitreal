@@ -1,21 +1,2 @@
-**A repo for git skills tuning and honing
-2016
-:
-:
-:
-Daniel Antohe
-----------------------
-----------------------
-:
-2/2016
-  - add the new search functionality for retrieving the b-trees
-  **
-  add basic functionality for decision tree algh
-  The feature
-  -- add the feature vector generation code
-  -- resolve b0 bug in linnear regression alg.
-  
+**A repo used as sandbox for git stuff
 
-  -- resolve b0 bug in linnear regression alg.---
-  -- another refactoring and alg optimization --
-  
